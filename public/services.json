@@ -1,0 +1,23 @@
+[
+    {
+        "id": "6",
+        "name": "Chicken Roll",
+        "price": 35,
+        "description": "",
+        "img": "https://i.ibb.co/47vJ5Ly/chicken-wrap-doner-with-tomato-1.png"
+    },
+    {
+        "id": "7",
+        "name": "Pizza",
+        "price": 35,
+        "description": "",
+        "img": "https://i.ibb.co/PCkCSvk/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden-1-1.png"
+    },
+    {
+        "id": "8",
+        "name": "",
+        "price": 35,
+        "description": "",
+        "img": ""
+    }
+]
