@@ -15,7 +15,8 @@ const Services = () => {
     return (
         <div className='container' >
             <div className="row">
-                <h1 className='services-title mt-5'> Homefoodi</h1>
+                <h1 className='services-title mt-5 mb-2'> Our Services</h1>
+                {/* <h1 className='services-title mt-5'> Homefoodi</h1> */}
                 {/* <span> Celebrate Home Food Everyday</span> */}
 
                 <div className="services-container">
