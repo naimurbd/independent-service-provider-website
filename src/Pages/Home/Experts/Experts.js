@@ -6,9 +6,9 @@ import Expert from '../Expert/Expert';
 
 
 const deliveryMen = [
-    { id: 1, name: 'Shabaz Nadif', img: deliveryMan1 },
-    { id: 2, name: 'Rashid Khan', img: deliveryMan2 },
-    { id: 3, name: 'Munaf Hussain', img: deliveryMan3 },
+    { id: 1, name: 'Shabaz Nadif', img: deliveryMan1, description: 'Hello Everyone.I am Shabaz.I am working here for last 3 years.' },
+    { id: 2, name: 'Rashid Khan', img: deliveryMan2, description: 'Hello Everyone.I am Rashid.I am working here for last 2 years.' },
+    { id: 3, name: 'Munaf Hussain', img: deliveryMan3, description: 'Hellow Everyone.I am Munaf.I am working here for last 3 years.' },
 
 ]
 

@@ -1,11 +1,12 @@
 import React from 'react';
+import './Blogs.css'
 
 const Blogs = () => {
     return (
         <div className='blogs-container'>
             <div>
                 <div>
-                    <h3>Difference between Authorization and Authentication</h3>
+                    <h3>Difference between Authorization and Authentication.</h3>
                     <p>Authentication: Authentication verifies who the user is.Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the user.Authentication is the first step of a good identity and access management process.
                         Authorization: Authorization determines what resources a user can access.Authorization works through settings that are implemented and maintained by the organization.	Authorization always takes place after authentication.
                     </p>
@@ -18,7 +19,7 @@ const Blogs = () => {
                 </div>
                 <div>
                     <h3>What other services does firebase provide other than authentication?</h3>
-                    <p>Open Source Backend Platform.Firebase to help take our mobile app development a notch higher.Simple core library, with a modular API for our application</p>
+                    <p>Open Source Backend Platform.Firebase to help take our mobile app development a notch higher.Simple core library, with a modular API for our application..</p>
                 </div>
 
             </div>

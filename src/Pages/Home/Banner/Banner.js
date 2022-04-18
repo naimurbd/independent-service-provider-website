@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../../images/food1.png'
-import banner2 from '../../../images/food1.png'
-import banner3 from '../../../images/food1.png'
+import banner1 from '../../../images/full-food1.jpg'
+import banner2 from '../../../images/full-food2.jpg'
+import banner3 from '../../../images/full-food1.jpg'
 
 const Banner = () => {
     const [index, setIndex] = useState(0);
@@ -14,7 +14,7 @@ const Banner = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 "
                     src={banner1}
                     alt="First slide"
                 />
@@ -31,7 +31,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>HomeFoodi</h3>
+                    <h1>HomeFoodi</h1>
                     <p> Celebrate Home Food Everyday.</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -43,7 +43,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>HomeFoodi</h3>
+                    <h1>HomeFoodi</h1>
                     <p>
                         Celebrate Home Food Everyday.
                     </p>
